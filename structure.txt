@@ -1,0 +1,37 @@
+/
+├── admin/
+│   ├── dashboard.php
+│   ├── delete_message.php
+│   ├── mute_user.php
+│   ├── unmute_user.php
+│   ├── delete_user.php
+├── assets/
+│   ├── css/
+│    │   ├── chat.css
+│    │   ├── logs.css.css
+│    │   ├── admin.css
+│   ├── images/
+│   │   └── logo.ico
+│   └── js/
+│   ├── private.js
+│   ├── script.js
+├── includes/
+│   ├── db.php
+│   ├── functions.php
+├── user/
+│   ├── login.php
+│   ├── logout.php
+│   ├── register.php
+│   ├── chat.php
+│   ├── post_message.php
+│   ├── fetch_messages.php
+│   ├── age_verif.php
+│   ├── fetch_private_messages.php
+│   ├── post_private_message.php
+│   ├── private_chat.php
+│   ├── user_list.php
+│   ├── check_mute_status.php
+├── index.php
+└── structure.txt
+
+

@@ -1,0 +1,187 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.container p {
+    margin-bottom: 15px;
+}
+
+.container .error {
+    color: #ff0000;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 8px;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+.container p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.container p a:hover {
+    text-decoration: underline;
+}
+
+form select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+form select:focus {
+    outline: none;
+}
+
+form option {
+    padding: 10px;
+    background-color: white;
+    color: #333;
+}
+
+form option:hover {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+form option:checked,
+form option:selected {
+    background-color: #007bff;
+    color: white;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="password"] {
+        font-size: 16px;
+    }
+
+    form button {
+        font-size: 18px;
+        padding: 12px;
+    }
+
+}
+
+
+@media (max-width: 405px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="password"] {
+        font-size: 16px;
+    }
+
+    form button {
+        font-size: 18px;
+        padding: 12px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .container h1 {
+        font-size: 33px;
+    }
+}
+
+@media (max-width: 335px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="password"] {
+        font-size: 16px;
+    }
+
+    form button {
+        font-size: 18px;
+        padding: 12px;
+    }
+
+    p {
+        font-size: 11px;
+    }
+
+    .container h1 {
+        font-size: 28px;
+    }
+}
